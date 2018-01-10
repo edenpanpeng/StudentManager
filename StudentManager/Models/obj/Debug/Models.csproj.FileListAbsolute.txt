@@ -1,0 +1,4 @@
+E:\Projects\StudentManager\Models\bin\Debug\Models.dll
+E:\Projects\StudentManager\Models\bin\Debug\Models.pdb
+E:\Projects\StudentManager\Models\obj\Debug\Models.dll
+E:\Projects\StudentManager\Models\obj\Debug\Models.pdb

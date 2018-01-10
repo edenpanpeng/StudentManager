@@ -1,0 +1,7 @@
+E:\Projects\StudentManager\DAL\bin\Debug\DAL.dll
+E:\Projects\StudentManager\DAL\bin\Debug\DAL.pdb
+E:\Projects\StudentManager\DAL\bin\Debug\Models.dll
+E:\Projects\StudentManager\DAL\bin\Debug\Models.pdb
+E:\Projects\StudentManager\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Projects\StudentManager\DAL\obj\Debug\DAL.dll
+E:\Projects\StudentManager\DAL\obj\Debug\DAL.pdb

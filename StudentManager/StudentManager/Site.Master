@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPage.master.cs" Inherits="StudentManager.SiteMaster" %>
+<!DOCTYPE html>
+
+<%--<html lang="en">--%>
+<html>
+<head runat="server">
+   
+    <title></title>
+    <link href="Styles/MainPage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="container">
+        <div id="navBar">
+            <asp:Image ID="Image1" ImageUrl="~/Images/navBar.png" BorderStyle="None" runat="server" usemap="#Map" />
+            <map name="Map" id="Map">
+                <area shape="rect" coords="10,5,144,30" href="../Default.aspx" />
+                <area shape="rect" coords="168,7,258,27" href="../View/AddStudent.aspx" />
+                <area shape="rect" coords="273,6,369,27" href="../View/StudentManage.aspx" />
+                <area shape="rect" coords="382,6,475,28" href="../Score/ScoreManage.aspx" />
+                <area shape="rect" coords="490,6,581,30" target="_blank" href="../View/ChangePwd.aspx" />
+                <area shape="rect" coords="596,6,691,29" href="../View/ExitSys.aspx" onclick="return confirm('确认退出吗？')"/>
+            </map>
+        </div>
+       
+         <div id="topBar">
+             
+             <div id="webMapDiv">
+               
+            </div>
+             
+             <div id="showUserDiv">
+                <asp:Literal ID="ltaUserName" runat="server"></asp:Literal>
+            </div>
+
+         </div>
+            
+         <div id="pageContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>   
+            
+        <div id="footBar">
+        </div>
+        <div id="bottomBar">
+            本系统版权所有：&nbsp;eden&nbsp;2017
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>
